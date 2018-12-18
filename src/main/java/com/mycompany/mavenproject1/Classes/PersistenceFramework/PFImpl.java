@@ -23,33 +23,33 @@ public class PFImpl implements PF{
     public void delete(AbstractEntity entity) {
         PFImpl pf = new PFImpl();
       if (entity instanceof Category){
-        pf.deleteCategory(entity);
+        pf.deleteCategory((Category) entity);
     }
       if (entity instanceof Good){
-        pf.deleteGood(entity);
+        pf.deleteGood((Good) entity);
     }
       if (entity instanceof BonusPlan){
-        pf.deleteBonusPlan(entity);
+        pf.deleteBonusPlan((BonusPlan) entity);
     }
       if (entity instanceof CategoryRights){
-        pf.deleteCategoryRights(entity);
+        pf.deleteCategoryRights((CategoryRights) entity);
     }
        
     }
     
-    public void load(AbstractEntity Entity){
+    public void load(AbstractEntity entity){
         PFImpl pf = new PFImpl();
       if (entity instanceof Category){
-        pf.deletCategory(entity);
+        pf.deleteCategory((Category) entity);
     }
       if (entity instanceof Good){
-        pf.deleteGood(entity);
+        pf.deleteGood((Good) entity);
     }
       if (entity instanceof BonusPlan){
-        pf.deleteBonusPlan(entity);
+        pf.deleteBonusPlan((BonusPlan) entity);
     }
       if (entity instanceof CategoryRights){
-        pf.deleteCategoryRights(entity);
+        pf.deleteCategoryRights((CategoryRights) entity);
     }
     }
     
