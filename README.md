@@ -1,3 +1,2 @@
 # mavenproject1
-test project
-tests interactions and tools
+test project for testing tools, technologies etc.
